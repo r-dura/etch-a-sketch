@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-container {
+    display: grid;
+    gap: 4px;
+    width: 350px; 
+    height: 350px;
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.grid-item {
+    border-style: solid;
+}
+
+.filledIn {
+    background-color: #333;
+    border-style: solid;
+}
